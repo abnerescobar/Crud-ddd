@@ -1,6 +1,7 @@
 ﻿using Domain.Customers;
 using Domain.Orders;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,17 +21,18 @@ namespace Infrastucture.Persistence.Repositories
 
         public void Add(Order order)
         {
-            throw new NotImplementedException();
+            _context.Add(order);
         }
 
-        public Task<Order?> GetByIdWithLineItemAsync(OrderId id, LineItemId lineItemId)
+        public async Task<Order?> GetByIdWithLineItemAsync(OrderId id, LineItemId lineItemId)
         {
-            throw new NotImplementedException();
+            return await _context.Orders.Include(o=> o.LineItems.Where(li=> li.Id == lineItemId))
+                        .SingleOrDefaultAsync(o=> o.Id == id);
         }
 
         public bool HasOneLineItem(Order order)
         {
-            throw new NotImplementedException();
+            return _context.LineItems.Count(li => li.OrderId == order.Id) == 1;
         }
     }
 }

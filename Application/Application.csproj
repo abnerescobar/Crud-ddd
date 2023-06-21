@@ -19,6 +19,7 @@
     <Folder Include="Customers\Update\" />
     <Folder Include="Orders\GetOrder\" />
     <Folder Include="Orders\RemoveLineItem\" />
+    <Folder Include="Products\Get\" />
   </ItemGroup>
 
   <PropertyGroup>

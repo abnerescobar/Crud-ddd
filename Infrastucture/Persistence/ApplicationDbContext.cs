@@ -24,8 +24,8 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext, IUnitOfWor
 
     public DbSet<Customer> Customers { get ; set ; }
     public DbSet<LineItem> LineItems { get; set; }
-    public DbSet<Customer> Orders { get; set; }
-    public DbSet<Product> Product { get; set; }
+    public DbSet<Order> Orders { get; set; }
+    public DbSet<Product> Products { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);

@@ -8,6 +8,7 @@ using Domain.Primitives;
 using Infrastucture.Persistence.Repositories;
 using Domain.Customers;
 using Domain.Orders;
+using Domain.Products;
 
 namespace Infrastucture;
 public static class DependencyInjection
@@ -25,6 +26,7 @@ public static class DependencyInjection
 
         services.AddScoped<IcustomerRepository, CustomerRepository>();
         services.AddScoped<IOrderRepository, OrderRepository>();
+        services.AddScoped<IProductRepository, ProductRepository>();
         return services;
     }
 }

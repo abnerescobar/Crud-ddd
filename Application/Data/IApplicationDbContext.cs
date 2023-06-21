@@ -1,4 +1,5 @@
 ﻿using Domain.Customers;
+using Domain.Products;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,5 +12,7 @@ namespace Application.Data;
 public interface IApplicationDbContext
 {
     DbSet<Customer> Customers { get; set; }
+    DbSet<Product> Products { get; set; }
+
     Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
 }

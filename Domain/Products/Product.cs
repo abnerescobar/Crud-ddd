@@ -17,7 +17,7 @@ public sealed class Product : AggregateRoot
         Name = name;
         Price = price;
     }
-    private Product()
+    private Product(ProductId productId)
     {
 
     }

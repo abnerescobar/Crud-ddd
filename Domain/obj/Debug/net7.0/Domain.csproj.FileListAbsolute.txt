@@ -1,0 +1,14 @@
+D:\MODULO\PRUEBA\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\MODULO\PRUEBA\Domain\bin\Debug\net7.0\Domain.runtimeconfig.json
+D:\MODULO\PRUEBA\Domain\bin\Debug\net7.0\Domain.dll
+D:\MODULO\PRUEBA\Domain\bin\Debug\net7.0\Domain.pdb
+D:\MODULO\PRUEBA\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\MODULO\PRUEBA\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MODULO\PRUEBA\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\MODULO\PRUEBA\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\MODULO\PRUEBA\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\MODULO\PRUEBA\Domain\obj\Debug\net7.0\Domain.dll
+D:\MODULO\PRUEBA\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\MODULO\PRUEBA\Domain\obj\Debug\net7.0\Domain.pdb
+D:\MODULO\PRUEBA\Domain\obj\Debug\net7.0\Domain.genruntimeconfig.cache
+D:\MODULO\PRUEBA\Domain\obj\Debug\net7.0\ref\Domain.dll
