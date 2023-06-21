@@ -1,6 +1,7 @@
-﻿using Application.Products;
+﻿using Microsoft.AspNetCore.Mvc;
+using Application.Products.Create;
 using MediatR;
-using Microsoft.AspNetCore.Mvc;
+
 
 namespace Web.API.Controllers;
 
@@ -19,8 +20,8 @@ public class Products : ApiController
         var createProductResult = await _mediator.Send(command);
 
         return createProductResult.Match(
-            Order => Ok(createProductResult.value),
-            ErrorsControler => Problem(errors)
+            Order => Ok(createProductResult.Value),
+            errors => Problem(errors)
             
             );
 

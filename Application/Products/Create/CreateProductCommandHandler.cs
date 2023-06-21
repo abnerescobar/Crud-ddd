@@ -1,16 +1,12 @@
-﻿using Domain.Primitives;
+﻿using Application.Products.Common;
+using Domain.Primitives;
 using Domain.Products;
 using Domain.ValueObjects;
+using ErrorOr;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+namespace Application.Products.Create;
 
-namespace Application.Products;
-
-internal class CreateProductCommandHandler: IRequestHandler<CreateProductCommand>
+internal class CreateProductCommandHandler: IRequestHandler<CreateProductCommand, ErrorOr<ProductResponse>>
 {
     private readonly IProductRepository _productRepository;
     private readonly IUnitOfWork _unitOfWork;
@@ -22,14 +18,15 @@ internal class CreateProductCommandHandler: IRequestHandler<CreateProductCommand
         _unitOfWork = unitOfWork;
     }
 
-    public async Task Handle(CreateProductCommand request, CancellationToken cancellationToken)
+    public async Task<ErrorOr<ProductResponse>> Handle(CreateProductCommand request, CancellationToken cancellationToken)
     {
         var product = new Product(
             new ProductId(Guid.NewGuid()),
             Sku.Create(request.Sku)!,
             request.Name,
-            new Money(request.Currency, request.Amunt));
+            new Money(request.Currency, request.Amount));
         _productRepository.Add(product);
         await _unitOfWork.SaveChangesAsync(cancellationToken);
+        return new ProductResponse();
     }
 }

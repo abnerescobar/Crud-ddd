@@ -1,8 +1,6 @@
-﻿using Application.Orders.Create;
-using Application.Products;
+﻿using Microsoft.AspNetCore.Mvc;
+using Application.Orders.Create;
 using Application.Products.Create;
-using Microsoft.AspNetCore.Mvc;
-
 namespace Web.API.Controllers
 {
     public interface IProducts

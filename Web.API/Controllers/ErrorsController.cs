@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Web.API.Controllers;
 
-public class ErrorsControler : ControllerBase
+public class ErrorsController : ControllerBase
 {
     [ApiExplorerSettings(IgnoreApi = true)]
     [Route("/error")]

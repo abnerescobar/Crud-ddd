@@ -1,10 +1,5 @@
 ﻿using Domain.Primitives;
 using Domain.ValueObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Domain.Products;
 
@@ -17,7 +12,7 @@ public sealed class Product : AggregateRoot
         Name = name;
         Price = price;
     }
-    private Product(ProductId productId)
+    private Product()
     {
 
     }
@@ -25,4 +20,11 @@ public sealed class Product : AggregateRoot
     public Sku Sku { get; private set; } 
     public string Name { get; private set; } = string.Empty;
     public Money Price { get; private set; }
+
+    public void Update(string name, Money price, Sku sku)
+    {
+        Name = name;
+        Price = price;
+        Sku = sku;
+    }
 }

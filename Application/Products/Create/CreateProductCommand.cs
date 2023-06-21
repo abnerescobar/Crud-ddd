@@ -1,14 +1,11 @@
 ﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ErrorOr;
+using Application.Products.Common;
 
-namespace Application.Products;
+namespace Application.Products.Create;
 
 public record CreateProductCommand(
     string Name, 
     string Sku, 
     string Currency, 
-    decimal Amunt): IRequest;
+    decimal Amount) : IRequest<ErrorOr<ProductResponse>>;
