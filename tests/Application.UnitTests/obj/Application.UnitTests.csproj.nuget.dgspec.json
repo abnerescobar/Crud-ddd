@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "d:\\MODULO\\PRUEBA\\Infrastucture\\Infrastucture.csproj": {}
+    "d:\\MODULO\\PRUEBA\\tests\\Application.UnitTests\\Application.UnitTests.csproj": {}
   },
   "projects": {
     "d:\\MODULO\\PRUEBA\\Application\\Application.csproj": {
@@ -160,14 +160,14 @@
         }
       }
     },
-    "d:\\MODULO\\PRUEBA\\Infrastucture\\Infrastucture.csproj": {
+    "d:\\MODULO\\PRUEBA\\tests\\Application.UnitTests\\Application.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\MODULO\\PRUEBA\\Infrastucture\\Infrastucture.csproj",
-        "projectName": "Infrastucture",
-        "projectPath": "d:\\MODULO\\PRUEBA\\Infrastucture\\Infrastucture.csproj",
+        "projectUniqueName": "d:\\MODULO\\PRUEBA\\tests\\Application.UnitTests\\Application.UnitTests.csproj",
+        "projectName": "Application.UnitTests",
+        "projectPath": "d:\\MODULO\\PRUEBA\\tests\\Application.UnitTests\\Application.UnitTests.csproj",
         "packagesPath": "C:\\Users\\esaue\\.nuget\\packages\\",
-        "outputPath": "d:\\MODULO\\PRUEBA\\Infrastucture\\obj\\",
+        "outputPath": "d:\\MODULO\\PRUEBA\\tests\\Application.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -190,9 +190,6 @@
             "projectReferences": {
               "d:\\MODULO\\PRUEBA\\Application\\Application.csproj": {
                 "projectPath": "d:\\MODULO\\PRUEBA\\Application\\Application.csproj"
-              },
-              "d:\\MODULO\\PRUEBA\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\MODULO\\PRUEBA\\Domain\\Domain.csproj"
               }
             }
           }
@@ -207,37 +204,33 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "ErrorOr": {
+            "FluentAssertions": {
               "target": "Package",
-              "version": "[1.2.1, )"
+              "version": "[6.11.0, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[7.0.7, )"
+              "version": "[17.3.2, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.7, )"
+              "version": "[3.1.2, )"
             },
-            "Microsoft.EntityFrameworkCore.Relational": {
+            "xunit": {
               "target": "Package",
-              "version": "[7.0.7, )"
+              "version": "[2.4.2, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.7, )"
-            },
-            "MySql.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[2.4.5, )"
             }
           },
           "imports": [

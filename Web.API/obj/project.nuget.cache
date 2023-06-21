@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vs+HvIn7zZQJxrTdOi5aUhJLBtOstso6v9BngXN1DXVYCcYtzI3I1R+fd4A3RNT/8rIa7Za2hlNnrKidnsYWMA==",
+  "dgSpecHash": "O1OptCRhEVc/2hxeeMaAbsLrHKyfifOkmEyChBvBbMeFTG7jYpY7jFvgZpdXvtmT+D3EDs9QCWclyo7xdxm6EA==",
   "success": true,
-  "projectFilePath": "D:\\MODULO\\PRUEBA\\Web.API\\Web.API.csproj",
+  "projectFilePath": "d:\\MODULO\\PRUEBA\\Web.API\\Web.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\esaue\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\esaue\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

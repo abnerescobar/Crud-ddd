@@ -4593,11 +4593,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MODULO\\PRUEBA\\Web.API\\Web.API.csproj",
+      "projectUniqueName": "d:\\MODULO\\PRUEBA\\Web.API\\Web.API.csproj",
       "projectName": "Web.API",
-      "projectPath": "D:\\MODULO\\PRUEBA\\Web.API\\Web.API.csproj",
+      "projectPath": "d:\\MODULO\\PRUEBA\\Web.API\\Web.API.csproj",
       "packagesPath": "C:\\Users\\esaue\\.nuget\\packages\\",
-      "outputPath": "D:\\MODULO\\PRUEBA\\Web.API\\obj\\",
+      "outputPath": "d:\\MODULO\\PRUEBA\\Web.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4618,11 +4618,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\MODULO\\PRUEBA\\Application\\Application.csproj": {
-              "projectPath": "D:\\MODULO\\PRUEBA\\Application\\Application.csproj"
+            "d:\\MODULO\\PRUEBA\\Application\\Application.csproj": {
+              "projectPath": "d:\\MODULO\\PRUEBA\\Application\\Application.csproj"
             },
-            "D:\\MODULO\\PRUEBA\\Infrastucture\\Infrastucture.csproj": {
-              "projectPath": "D:\\MODULO\\PRUEBA\\Infrastucture\\Infrastucture.csproj"
+            "d:\\MODULO\\PRUEBA\\Infrastucture\\Infrastucture.csproj": {
+              "projectPath": "d:\\MODULO\\PRUEBA\\Infrastucture\\Infrastucture.csproj"
             }
           }
         }

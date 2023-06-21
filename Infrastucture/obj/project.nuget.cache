@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SRWLW3tCxEDyc+orT5QoSwl8L1G/HyoZDxKPcjH8yOx00c1QVkMI5e+1+NpcB3szlaS8vTdtzhFjEtszLjynJg==",
+  "dgSpecHash": "yO9YfRabl+TZYSyoWfVWuW8D2yWtpDck4+joUtW3sF4eEalGG/OWSKU4Qxupgm3GbbH9b67ttan/kSuynNyCqQ==",
   "success": true,
-  "projectFilePath": "D:\\MODULO\\PRUEBA\\Infrastucture\\Infrastucture.csproj",
+  "projectFilePath": "d:\\MODULO\\PRUEBA\\Infrastucture\\Infrastucture.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\esaue\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\esaue\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
